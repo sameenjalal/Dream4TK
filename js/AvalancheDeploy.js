@@ -23807,6 +23807,7 @@ function removeFilter(a) {
         }
     }, a.Avalanche)
 })(jQuery || NYTD.jQuery, NYTD.NYTMM);
+
 (function (b, a, c) {
     a.Avalanche = b.extend(true, {
         initFixieNav: function () {
@@ -23819,67 +23820,16 @@ function removeFilter(a) {
         initNav: function () {
             var f = this;
             this.labels = [{
-                    label: "Tunnel Creek",
-                    a: "tunnel-creek"
-                }, {
-                    label: "To the Peak",
-                    a: "to-the-peak"
-                }, {
-                    label: "Descent Begins",
-                    a: "descent-begins"
-                }, {
-                    label: "Blur of White",
-                    a: "blur-of-white"
-                }, {
-                    label: "Discovery",
-                    a: "discovery"
-                }, {
-                    label: "Word Spreads",
-                    a: "word-spreads"
+                    label: "Dream4TK",
+                    a: "home"
                 }
             ];
             this.current_index = 0;
-            b(".nytmm-menu .nytmm-menu-section-link").click(function (h) {
-                h.preventDefault();
-                var g = parseInt(b(h.target).data("section"), 10);
-                f.setIndex(g, false)
-            });
-            var d = this.$prompt.find(".nytmm_next");
-            var e = this.$prompt.find(".nytmm_previous");
-            d.click(function () {
-                f.nextSection()
-            });
-            e.click(function () {
-                f.previousSection()
-            });
-            this.bindLightboxerClick(b(".nytmm_top_links"));
-            b(".nytmm_branding").find("h3").click(function () {
-                f.nav_shown = false;
-                f.setIndex(0)
-            });
-            b("#nytmm_phone_nav li").each(function (g) {
-                b(this).click(function () {
-                    f.setIndex(g)
-                })
-            })
-        },
-        setHash: function (d) {
-            if (this.labels[this.current_index] && b.address) {
-                b.address.parameter("part", this.labels[this.current_index].a)
-            }
         },
         goToDeeplink: function () {
             var d = this;
             var e = function () {
                 var g = false;
-                for (var f = 0; f < d.labels.length; f++) {
-                    if (b.address.parameter("part") == d.labels[f].a) {
-                        g = true;
-                        d.setIndex(f);
-                        b.log(d.labels[f].a);
-                        break
-                    }
-                }
                 if (!g) {
                     d.setIndex(0)
                 }
@@ -23935,15 +23885,10 @@ function removeFilter(a) {
             this.$sidenav.find("li").removeClass("selected").eq(d).addClass("selected");
             this.updateBottomNav()
         },
-        nextSection: function () {
-            this.setIndex(this.current_index + 1, false)
-        },
-        previousSection: function () {
-            this.setIndex(this.current_index - 1, false)
-        },
         updateBottomNav: function () {}
     }, a.Avalanche)
 })(jQuery || NYTD.jQuery, NYTD.NYTMM);
+
 (function (b, a, c) {
     a.Avalanche = b.extend(true, {
         getScrollTop: function () {
@@ -26031,7 +25976,7 @@ function removeFilter(a) {
             g.find("ul").append(j);
             j.click(function (o) {
                 var n = "menubar=no,location=no,resizable=yes,scrollbars=no,status=no,width=944,height=650";
-                window.open("http://www.nytimes.com/mem/email-this.html?url=http://www.nytimes.com/2012/12/21/sports/snow-fall-the-avalanche-at-tunnel-creek.html", "AvalancheEmail", n);
+                window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=dream4TK@gmail.com&su=Contact%20from%20Website", "Dream4TK Email", n);
                 o.preventDefault();
                 o.stopPropagation()
             })
