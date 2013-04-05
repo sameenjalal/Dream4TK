@@ -1,0 +1,98 @@
+/* ----------------------------------------------------- overall tweaks */
+#nytmm {
+    padding-bottom: 70px;
+}
+/* ----------------------------------------------------- menu tweaks */
+.nytmm-menu{
+    margin:0;
+}
+#nytmm_sidenav li, 
+.nytmm_top_links li {
+    display:inline;
+    margin: 0 0 0 6px;
+}
+#nytmm_sidenav, .nytmm_top_links {
+    outline:0;      
+    padding: 2px 0;
+}
+#nytmm_sidenav li a.nytmm-menu-section-link:hover,
+#nytmm_sidenav li a:hover,
+#nytmm_sidenav li:hover, .nytmm_top_links li:hover,
+#nytmm_sidenav li.nytmm_lightboxer:hover{
+    color:#000;
+    outline:0;
+}
+.nytmm_top_links{
+    padding-left:10px;
+}
+
+/* ----------------------------------------------------- bottom tweaks */
+#nytmm_bottom_prompt{
+    left:0;
+    right:0;
+    width:auto;
+}
+#nytmm_bottom_prompt .nytmm_next{
+    padding-top:15px;
+    padding-right: 58px;
+    margin-right:13px;
+    background: url('http://graphics8.nytimes.com/packages/images/multimedia/bundles/projects/2012/AvalancheDeploy/temp-lrg-slideshow-right.png') right 13px no-repeat;
+}
+#nytmm_bottom_prompt .nytmm_previous {
+    padding-top:15px;
+    padding-left: 58px;
+    margin-left:13px;
+    background: url('http://graphics8.nytimes.com/packages/images/multimedia/bundles/projects/2012/AvalancheDeploy/temp-lrg-slideshow-left.png') left 13px no-repeat;       
+}
+#nytmm_bottom_prompt .nytmm_previous span,
+#nytmm_bottom_prompt .nytmm_next span{
+    display:block;
+    margin-bottom:4px;
+}
+#nytmm_bottom_prompt .nytmm_previous:hover{
+    background-position:left -63px;
+}
+#nytmm_bottom_prompt .nytmm_next:hover{
+    background-position:right -63px;            
+}
+/* -----------------------------------------------------  footer tweak to avoid extra space below video */
+/*this seems to allow you to scroll past the video and cause the entire page to fade to 0 */
+#nytmm_footer{
+    display:none;
+}
+.nytmm_last{
+    position:absolute !important;
+    bottom:0 !important;
+    left:0 !important;
+    
+}
+.videoBG_wrapper{
+    display: none !important
+}   
+@media screen and (max-width: 1054px){
+    .nytmm_top_links, #nytmm_comments{ 
+        display:none; 
+    }
+
+    .nytmm_article .inner_article{
+        width: 994px;
+    }
+
+    .nytmm_media_section.video_section .nytmm_text {
+        width: 328px;
+    }
+
+    .nytmm_media_section.small_video_section .nytmm_text {
+        width: 230px;
+    }
+}
+#nytmm_shareTools{
+    width:auto;
+}
+#nytmm .shareToolsInstance li.shareToolsItemEmail{
+    /*display:none !important;*/
+}
+#g-docvidlink,
+#g-docvidlink:visited{
+    color: #004276;
+}
