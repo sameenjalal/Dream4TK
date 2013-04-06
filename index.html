@@ -22,7 +22,21 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <script type="text/javascript">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-39908360-1']);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-39908360-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script');
+          ga.type = 'text/javascript';
+          ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 
+              'https://ssl' : 
+              'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
 
     <link rel="stylesheet" href="stylesheets/foundation.min.css">
     <link type="text/css" rel="stylesheet" href="css/style1.css" />
@@ -30,7 +44,9 @@
     <link type="text/css" rel="stylesheet" href="css/style2.css" />
     <link type="text/css" rel="stylesheet" href="css/style.css" />
     <script type="text/javascript" src="js/html5shiv.js"></script>
-    <script src="javascripts/modernizr.foundation.js"></script>
+    <script src="js/modernizr.foundation.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
 
 </head>
 <body>  
@@ -85,7 +101,7 @@
 
     <div id="nytmm_articles">
         <div class="row panel opaque nytmm_section" >
-            <div class="nytmm_article video_cover">
+            <div class="twelve columns nytmm_article video_cover">
                 <div 
                     class="nytmm_fs_video nytmm_touch_fs_video nytmm_touch_fs_leadphotoseq nytmm_ie_static" 
                     data-poster="img/sunset.jpg"
@@ -99,25 +115,22 @@
                 </div>
             </div>
             <div class="twelve columns nytmm_article nytmm_colorchange last" id="nytmm_pewter" data-colorchrome="#a8a7b0" data-colorff="#aaa7b0" data-color="#b2b1b7">
-                <div class="six columns push-two" style="width:600px; margin:auto">
-                    <h3 id="title" align="center">Dream: 4 the Kids</h3><br><br>
-                    Biking
-                    <a href="http://www.adventurecycling.org/routes/atlanticcoast.cfm">1500 miles</a> from
-                    <a href="http://rutgers.edu">New Brunswick, NJ</a> to
-                    <a href="https://disneyworld.disney.go.com/">the Land of Dreams, Disney World</a>
-                    in Orlando, FL
+                <div class="six columns push-two" style="width:60%; margin:auto">
+                    <h3 id="title" align="center">Dream4TK</h3>
+                    <div class="row"><em>Four riders. 1,500-mike bike ride from New Brunswick, NJ to Disney World in Orlando, Florida. $1,000,000 for the kids.</em></div>
+                    <br>
                     <hr>
                     <br>
-                    <h5>Why?</h5>
-                    To raise $1,000,000 to further the <a href="http://www.embracekids.org/">pursuit of dreams</a>.
+                    <div class="row"><em>"Never doubt that a small group of thoughtful, committed people can change the world. Indeed, it is the only thing that ever has." - Margaret Mead, American cultural anthropologist</em></div>
                     <br>
-                    <br>
-                    Embrace Kids Foundation exists to help families whose children have cancer or blood disorders. The foundation is committed to enhancing the quality of life of the children and to relieving families of emotional and financial pressures.
                     <hr>
                     <br>
-                    <h5>When?</h5>
-                    Sunday, July 28th to Sunday, August 25th
-                    <hr>
+                    <div class="row">On July 28, 2013, our four riders will leave from New Brunswick, NJ and embark on a 1,500-mile journey to Orlando, Florida. Dream4TK aims to promote awareness, foster community and raise $1,000,000 for Embrace Kids Foundation</div>
+                    <br>
+                    <div class="row"><a href="http://www.embracekids.org">Embrace Kids Foundation</a> is a charity that helps provide for the non-medical needs of families of children with cancer and blood disorders. The charity offers a number of services including emergency financial support, trauma counselors, tutors and child-life specialists. The foundation is committed to enhancing the quality of life of the children and to relieving families of emotional and financial pressures.</div>
+                    <br>
+                    <br>
+                    <a href="http://embracekids.donordrive.com/campaign/RUDream" class="large success button" target="_blank">Donate to our Dream</a>
 
                 </div>
             </div>
