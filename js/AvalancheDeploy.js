@@ -21607,7 +21607,7 @@ NYTD.NYTMM.shareTools = (function (e) {
             active: true,
             onShowAll: true,
             label: "Facebook",
-            postUrl: "http://www.facebook.com/sharer.php",
+            postUrl: "https://www.facebook.com/Dream4TK",
             postType: "popup",
             shareParameters: {
                 url: "p[url]",
@@ -21626,7 +21626,7 @@ NYTD.NYTMM.shareTools = (function (e) {
             active: true,
             onShowAll: true,
             label: "Facebook",
-            postUrl: "http://www.facebook.com/sharer.php",
+            postUrl: "https://www.facebook.com/Dream4TK",
             postType: "popup",
             shareParameters: {
                 url: "u"
@@ -21639,7 +21639,7 @@ NYTD.NYTMM.shareTools = (function (e) {
             active: true,
             onShowAll: true,
             label: "Twitter",
-            postUrl: "https://twitter.com/share",
+            postUrl: "https://twitter.com/intent/tweet?related=dream4TK&source=tweetbutton&text=I'm%20supporting%20the%20dream!%20%23dream4TK&url=http://dream4tk.org&via=dream4TK",
             postType: "popup",
             shareParameters: {
                 url: "url",
