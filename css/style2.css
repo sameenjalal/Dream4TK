@@ -36,13 +36,11 @@
     padding-top:15px;
     padding-right: 58px;
     margin-right:13px;
-    background: url('http://graphics8.nytimes.com/packages/images/multimedia/bundles/projects/2012/AvalancheDeploy/temp-lrg-slideshow-right.png') right 13px no-repeat;
 }
 #nytmm_bottom_prompt .nytmm_previous {
     padding-top:15px;
     padding-left: 58px;
     margin-left:13px;
-    background: url('http://graphics8.nytimes.com/packages/images/multimedia/bundles/projects/2012/AvalancheDeploy/temp-lrg-slideshow-left.png') left 13px no-repeat;       
 }
 #nytmm_bottom_prompt .nytmm_previous span,
 #nytmm_bottom_prompt .nytmm_next span{
