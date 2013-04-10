@@ -114,6 +114,15 @@ div.package.panel {
 	width: 100%;
 }
 
+#dream_cal iframe {
+	height: 100%;
+	width: 100%;
+}
+
+#dream_cal {
+    margin-bottom: -10%;
+}
+
 #route_map {
     margin-bottom: -10%;
 }
