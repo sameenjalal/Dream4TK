@@ -1,5 +1,9 @@
 body {
-  background: url(../img/dream_background.jpg);
+  width: 100%;
+}
+
+.dream_footer {
+  background-color: #51C6D8;
 }
 
 .opaque {
@@ -38,7 +42,7 @@ div.package.panel {
 }
 
 .active {
-  box-shadow: 0px 5px 10px #888;
+  box-shadow: 0px 10px 10px #888;
 }
 
 .columns {
@@ -47,7 +51,7 @@ div.package.panel {
 
 .social {
   vertical-align: middle;
-  text-align: right;
+  text-align: center;
 }
 
 .social_icon {
@@ -63,3 +67,152 @@ div.package.panel {
   height: 600px;
   width: 100%;
 }
+
+.nav_color ul .dream_donate {
+  background-color: #B31A36;
+}
+
+.dream_level_odd {
+  font-weight: bold;
+  color: #00B2EE;
+}
+
+.dream_level_even {
+  font-weight: bold;
+  color: #EE0000;
+}
+
+.dream_quote_1 {
+  font-style: italic;
+  padding: 5% 20% 5% 20%;
+}
+
+.dream_sponsor_desc {
+  padding: 0 5% 0 5%;
+}
+
+.dream_sponsor_label {
+  padding-left: 2%;
+  color: #00B2EE;
+}
+
+.dream_company_sponsor {
+  padding: 2%;
+}
+
+.dream_company_sponsor ul li {
+  font-size: 90%;
+}
+
+.dream_company_sponsor p {
+  font-size: 120%;
+  margin-bottom: 0;
+}
+
+.dream_paragraph_start {
+  color: #EE0000;
+}
+
+.dream_sponsorship_packet_link {
+  padding: 4%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.dream_desc_accentuate {
+  font-weight: bold;
+  color: #EE0000;
+}
+
+.dream_desc_questions {
+  font-weight: bold;
+  color: #00B2EE;
+  font-size: 110%;
+}
+
+.dream_name {
+  color: #00B2EE;
+}
+
+.dream_4 {
+  color: #EE0000;
+}
+
+.text_package {
+  margin-left: 3%;
+}
+
+.dream_button_package {
+  margin: 10% 3% 0 3%;
+  height: 100%;
+}
+
+.dream_one_desc {
+  font-size: 110%;
+  padding-bottom: 5%;
+}
+
+.dream_front_button {
+  height: 55px;
+}
+
+.dream_bottom_info_row {
+  padding: 0 8% 0 5%;
+}
+
+.dream_embrace_kids_info {
+  padding-top: 3%;
+}
+
+.dream_bottom_info_entire_row {
+  padding-top: 2%;
+}
+
+.dream_bottom_button {
+  width: 100%;
+}
+
+.dream_bottom_box_even {
+  height: 350px;
+}
+
+.dream_bottom_box_odd {
+  height: 350px;
+}
+
+.dream_nav {
+  vertical-align: center;
+}
+
+.dream_tab {
+  width: 50px;
+  height: 50px;
+  padding-top: 10%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.dream_tab a:hover {
+  background-color: #51C6D8;
+  color: white;
+  box-shadow: 0px 10px 10px #888;
+}
+
+.dream_tab_bike {
+  padding-top: 3%;
+}
+
+.dream_welcome_logo {
+  margin: 0 auto;
+}
+
+.dream_welcome_text {
+  text-align: center;
+}
+
+.dream_tab_elem {
+}
+
+.dream_body {
+  width: 95%;
+} 

@@ -114,3 +114,64 @@ div.package.panel {
   font-weight: bold;
   font-style: italic;
 }
+
+.dream_desc_accentuate {
+  font-weight: bold;
+  color: #EE0000;
+}
+
+.dream_desc_questions {
+  font-weight: bold;
+  color: #00B2EE;
+  font-size: 110%;
+}
+
+.dream_name {
+  color: #00B2EE;
+}
+
+.dream_4 {
+  color: #EE0000;
+}
+
+.text_package {
+  margin-left: 3%;
+}
+
+.dream_button_package {
+  margin: 10% 3% 0 3%;
+  height: 100%;
+}
+
+.dream_one_desc {
+  font-size: 110%;
+  padding-bottom: 5%;
+}
+
+.dream_front_button {
+  height: 55px;
+}
+
+.dream_bottom_info_row {
+  padding: 0 8% 0 5%;
+}
+
+.dream_embrace_kids_info {
+  padding-top: 3%;
+}
+
+.dream_bottom_info_entire_row {
+  padding-top: 2%;
+}
+
+.dream_bottom_button {
+  width: 100%;
+}
+
+.dream_bottom_box_even {
+  height: 350px;
+}
+
+.dream_bottom_box_odd {
+  height: 350px;
+}
